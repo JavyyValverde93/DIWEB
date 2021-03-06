@@ -1,0 +1,36 @@
+
+header:before, nav:before {
+  content: '<';
+}/* Antes de Header y Nav introducir el caracter "<" */
+
+header:after, nav:after {
+  content: '>';
+}/* Después de Header y Nav introducir el caracter ">" */
+
+#prod{
+  font-size: 3rem;
+}/*Productos con id prod se les triplica el tamaño de la fuente*/
+
+#prod2{
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+}/*Productos con id prod2 se les cambia el estilo, fuente y color*/
+
+#prod3{
+  background-color: rgb(0, 255, 72);
+}/*Productos con id prod3 se les pone el fondo verde*/
+
+footer{
+  background-image: url("img.jpg") ; /*Poner fondo de imagen negra*/
+}
+
+a:hover{
+  color: rgb(140, 255, 0);
+  font-size: 2rem;
+}/*Los enlaces se ponen verdes y se les duplica el tamaño de la fuente al pasar el raton sobre él*/
+
+footer::first-letter{
+  font-size: 112px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}/*Primera letra dek¡l Footer con distinta fuente y tamaño*/
